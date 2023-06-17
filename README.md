@@ -3,6 +3,19 @@
 ### Explicación
 **El codigo proporsionado es una implementacion en C# de una aplicacion que permite a un cliente comprar productos y calcular el cambio correspondiente, además brinda funcionalidades relacionadas con la tarjeta SUBE (Sistema Único de Boleto Electrónico), utilizado en Argentina para el transporte público.**
 > Tienda
+
+### Explicación técnica de lo que realiza el código:
+                
+1. El programa solicita al usuario que ingrese la cantidad de productos que desea comprar el cliente.
+2. A continuación, se ejecuta un bucle "for" que itera tantas veces como la cantidad de productos especificada por el usuario.
+3. Dentro del bucle, se solicita al usuario que ingrese el número correspondiente al producto que desea comprar.
+4. Según el número ingresado, se ejecuta un conjunto de instrucciones para ese producto en particular.
+5. Para cada producto, el programa solicita al usuario que ingrese la cantidad de dinero que el cliente está pagando.
+6. Luego, se calcula el cambio restando el precio del producto al dinero ingresado por el cliente.
+7. Finalmente, se muestra el vuelto al cliente.
+
+#### El código utiliza declaraciones "if" y "else if" para determinar qué producto se ha seleccionado en función del número ingresado por el usuario. Cada producto tiene asignado un número y un precio correspondiente. El programa calcula el vuelto restando el precio del producto del dinero ingresado por el cliente. ####
+
 <p align="center">
   <img src="https://i.postimg.cc/pT3RkqXP/image.png" alt="Tienda"/>
 </p>
